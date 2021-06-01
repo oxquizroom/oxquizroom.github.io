@@ -19,14 +19,14 @@ export default {
   body {
     margin: 0;
   }
-  @font-face {
-    font-family: LiShu;
-    src: url('~@/assets/font/lishu.ttf') format('truetype');
-  }
-  .lishu {
-    font-family: LiShu;
-    font-size: 1.6em;
-  }
+  //@font-face {
+  //  font-family: LiShu;
+  //  src: url('~@/assets/font/lishu.ttf') format('truetype');
+  //}
+  //.lishu {
+  //  font-family: LiShu;
+  //  font-size: 1.6em;
+  //}
 </style>
 <style lang="less" scoped>
   .pc {
