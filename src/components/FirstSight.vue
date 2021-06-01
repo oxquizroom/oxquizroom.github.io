@@ -186,7 +186,6 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
   }
   @keyframes offset {
     to {

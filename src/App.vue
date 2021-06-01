@@ -14,7 +14,7 @@ export default {
 
 <style lang="less">
   html {
-    background: #000;
+    background: #191919;
   }
   body {
     margin: 0;
@@ -29,17 +29,17 @@ export default {
   //}
 </style>
 <style lang="less" scoped>
-  .pc {
-    height: 100vh;
-    overflow: auto;
-    &::-webkit-scrollbar {
-      background: #000;
-      width: 8px;
-    }
-    &::-webkit-scrollbar-thumb {
-      width: 8px;
-      border-radius: 4px;
-      background: #202124;
-    }
-  }
+  //.pc {
+  //  height: 100vh;
+  //  overflow: auto;
+  //  &::-webkit-scrollbar {
+  //    background: transparent;
+  //    width: 8px;
+  //  }
+  //  &::-webkit-scrollbar-thumb {
+  //    width: 8px;
+  //    border-radius: 4px;
+  //    background: #202124;
+  //  }
+  //}
 </style>
