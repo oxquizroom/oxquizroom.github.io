@@ -19,6 +19,13 @@ export default {
   body {
     margin: 0;
   }
+  @font-face {
+    font-family: 'Fira Code';
+    src: url('~@/assets/font/fira-code.woff2') format('woff');
+  }
+  .fira-code {
+    font-family: 'Fira Code';
+  }
   //@font-face {
   //  font-family: LiShu;
   //  src: url('~@/assets/font/lishu.ttf') format('truetype');

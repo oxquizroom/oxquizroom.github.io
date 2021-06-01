@@ -174,6 +174,11 @@ export default {
       }
     }
   },
+  watch: {
+    oneBlogScale(val) {
+      console.log(val, 'scale....')
+    }
+  },
   mounted() {
   }
 }

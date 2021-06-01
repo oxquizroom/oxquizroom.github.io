@@ -2,8 +2,9 @@
   <div class="home">
     <div class="box">
       <div class="page">
-        <first-sight />
-        <time-line />
+        <FirstSight />
+        <TimeLine />
+        <Footer />
       </div>
     </div>
   </div>
@@ -12,11 +13,13 @@
 <script>
 import FirstSight from "@/components/FirstSight"
 import TimeLine from "@/components/TimeLine"
+import Footer from "@/components/Footer"
 
 export default {
   components: {
     FirstSight,
-    TimeLine
+    TimeLine,
+    Footer
   }
 }
 </script>
@@ -24,7 +27,6 @@ export default {
 <style lang="less" scoped>
   .box {
     .page {
-      height: 300vh;
     }
   }
 </style>

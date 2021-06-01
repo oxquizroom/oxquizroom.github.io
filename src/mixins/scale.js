@@ -4,10 +4,10 @@ export default {
       return this.$store.state.oneBlogScale
     },
     isPC () {
-      return this.oneBlogScale >= 35
+      return this.oneBlogScale >= 30
     },
     isMobile () {
-      return this.oneBlogScale < 35
+      return this.oneBlogScale < 30
     }
   }
 }

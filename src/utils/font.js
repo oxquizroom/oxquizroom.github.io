@@ -8,8 +8,8 @@ export default function () {
     var font = 20 * (width / 375) + 'px'
     var scale = 20 * (width / 375)
     if (width >= 640) {
-      font = '35px'
-      scale = 35
+      font = '30px'
+      scale = 30
     }
     store.commit('setObScale', scale)
     if (parseFloat(font).toFixed(4) != parseFloat(Number(html.style.fontSize).toFixed(4))) {
